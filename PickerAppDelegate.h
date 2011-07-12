@@ -13,14 +13,11 @@
 	IBOutlet NSTextField *deviceLabel;
 	IBOutlet NSTextField *summaryLabel;
 	IBOutlet NSView *deviceGraphic;
-
-	NSWindow *popupWindow;
 @private
 	NSStatusItem *_statusItem;
 }
 
 - (NSMenu *) createMenu;
--(NSWindow *)createWindow;
 
 @property (assign) IBOutlet  NSView *mainView;
 
